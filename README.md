@@ -1,10 +1,51 @@
-# Prueba Infinity Tech 
+# Prueba Infinity Tech
+
 
 **API para gestionar el acceso a la aplicación y así poder gestionar
 el listar,crear,editar y eliminar  usuarios**
 
 
-> *Despues de haber descargado de [GitHub](https://github.com/sneidermendoza/Prueba_infinity-tech "Infinity Tech")  la carpeta que contiene los archivos, y haber instalado las dependencias*
+> *Despues de haber descargado de [GitHub](https://github.com/sneidermendoza/Prueba_infinity-tech "Infinity Tech")*  la carpeta que contiene los archivos, podemos abrir esa carpeta en un editor de codigo, ejemplo: Visual Studio Code
+
+## Instalacion
+1. Instalar [Python](https://www.python.org/downloads/ "Python")
+
+
+2. Estando en nuestro editor de código favorito, podemos crear un entorno virtual para poder descargar las dependencias que van a hacer que nuestro proyecto funcione.
+Estando situado en nuestro proyecto dentro del editor de código, abrimos una terminal y con el comando.
+
+>**virtualenv -p python3 env**
+
+Después hay que activar este entorno. Y lo hacemos con el comando 
+
+>**.\env\scripts\activate**
+
+Después de estar activado nuestro entorno virtual, vamos a instalar todas las dependencias de nuestro proyecto 
+esto lo hacemos con el siguiente comando  
+
+>**pip install**
+
+aquí te dejo todas las dependencias.
+
+> * asgiref==3.6.0
+> * attrs==22.2.0
+> * Django==4.1.5
+> * djangorestframework==3.14.0
+> * djangorestframework-simplejwt==5.2.2
+> * drf-extensions==0.7.1
+> * drf-spectacular==0.25.1
+> * inflection==0.5.1
+> * jsonschema==4.17.3
+> * PyJWT==2.6.0
+> * pyrsistent==0.19.3
+> * pytz==2022.7
+> * PyYAML==6.0
+> * sqlparse==0.4.3
+> * tzdata==2022.7
+> * uritemplate==4.1.1
+
+Un ejemplo de esto es: **pip install Django==4.1.5**
+Con esto ya estamos listos para empezar a interactuar con nuestro proyecto
 
 
 ## Rutas
